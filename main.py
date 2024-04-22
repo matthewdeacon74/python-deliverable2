@@ -29,7 +29,7 @@ while isDone == False:
     elif nextBuy == "orange":
         numOrange += 1
         subTotal += orangeCost
-    elif nextBuy == "nothing":
+    elif nextBuy == "done":
         isDone = True
         print(f"Receipt for {userName}:")
         print(f"{userName} bought {numapple} apples, {numGrape} grapes, and {numOrange} oranges.")
