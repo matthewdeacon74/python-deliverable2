@@ -23,7 +23,7 @@ while isDone == False:
     if nextBuy == "apple":
         numapple +=1
         subTotal += appleCost
-    elif nextBuy == "grape":
+    elif nextBuy == "grapes":
         numGrape +=1
         subTotal += grapeCost
     elif nextBuy == "orange":
